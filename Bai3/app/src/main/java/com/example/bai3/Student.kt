@@ -1,2 +1,6 @@
-package com.example.bai3;public class Student {
-}
+package com.example.bai3
+
+data class Student(
+    val name: String,
+    val mssv: String
+)
