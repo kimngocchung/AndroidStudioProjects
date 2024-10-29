@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Bai1</string>
+    <string name="mssv">MSSV</string>
+    <string name="name">Họ tên</string>
+    <string name="email">Email</string>
+    <string name="phone">Số điện thoại</string>
+    <string name="gender_male">Nam</string>
+    <string name="gender_female">Nữ</string>
+    <string name="ward">Phường/xã</string>
+    <string name="district">Quận/huyện</string>
+    <string name="city">Tỉnh/thành</string>
+    <string name="hobby_sports">Thể thao</string>
+    <string name="hobby_movies">Điện ảnh</string>
+    <string name="hobby_music">Âm nhạc</string>
+    <string name="terms">Tôi đồng ý với các điều khoản</string>
+    <string name="submit">Submit</string>
+
+</resources>
