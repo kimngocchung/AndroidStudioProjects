@@ -1,0 +1,144 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- EditText for MSSV, Name, Email, Phone -->
+    <EditText
+        android:id="@+id/edtMSSV"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/mssv"
+        android:inputType="text"
+        android:autofillHints="username"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:maxWidth="300dp" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:autofillHints="name"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:maxWidth="300dp" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:autofillHints="emailAddress"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:maxWidth="300dp" />
+
+    <EditText
+        android:id="@+id/edtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/phone"
+        android:inputType="phone"
+        android:autofillHints="phone"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:maxWidth="300dp" />
+
+    <!-- RadioGroup for Gender -->
+    <RadioGroup
+        android:id="@+id/radioGroupGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gender_male" />
+
+        <RadioButton
+            android:id="@+id/radioFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gender_female" />
+    </RadioGroup>
+
+    <!-- CalendarView for Date of Birth -->
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Spinners for Address -->
+    <Spinner
+        android:id="@+id/spinnerWard"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:prompt="@string/ward"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp" />
+
+    <Spinner
+        android:id="@+id/spinnerDistrict"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:prompt="@string/district"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp" />
+
+    <Spinner
+        android:id="@+id/spinnerCity"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:prompt="@string/city"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp" />
+
+    <!-- CheckBoxes for Hobbies -->
+    <CheckBox
+        android:id="@+id/checkBoxSports"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/hobby_sports"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxMovies"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/hobby_movies"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/hobby_music"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp" />
+
+    <!-- Terms and Submit -->
+    <CheckBox
+        android:id="@+id/checkBoxTerms"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/terms"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+</LinearLayout>
