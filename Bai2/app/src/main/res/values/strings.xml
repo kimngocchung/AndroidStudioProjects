@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">Bai2</string>
-    <string name="btn_show_text">Show</string>
-    <string name="edittext_hint">Nhập số nguyên dương</string>
-    <string name="radio_even">Số chẵn</string>
-    <string name="radio_odd">Số lẻ</string>
-    <string name="radio_square">Số chính phương</string>
-</resources>
-
